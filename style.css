@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:wght@500&family=Raleway&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #edf2fb;
+  font-family: 'Raleway', sans-serif;
+}
+.container {
+  height: 40rem;
+  width: 30rem;
+  background-color: #d7e3fc;
+  box-shadow: 0 0 20px 10px #e2eafc;
+  border-radius: 1rem;
+  text-align: center;
+  margin: 5rem auto;
+  padding: 2rem;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #185e8d;
+}
+
+table {
+  margin: auto;
+}
+
+input {
+  font-size: 3rem;
+  padding: 1rem;
+  width: 40%;
+  background-color: #e2eafc;
+  border: 1px solid#c1d3fe;
+  color: rgba(0, 0, 0, 0.664);
+  width: 22.5rem;
+  text-align: right;
+}
+
+button {
+  font-family: 'Inconsolata', monospace;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #ccdbfd;
+  border: 1px solid #c1d3fe;
+  height: 4.5rem;
+  width: 5.5rem;
+  color: rgba(0, 0, 0, 0.664);
+}
+
+button:hover {
+  background-color: #c1d3fe;
+}
